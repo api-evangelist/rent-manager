@@ -1,0 +1,53 @@
+name: Rent Manager Plans and Pricing
+description: Rent Manager offers four software bundles with the API available as an add-on for any tier. Pricing is quote-based and requires contacting sales or requesting a demo.
+url: https://www.rentmanager.com/pricing/
+plans:
+  - name: Basic
+    description: Entry-level bundle covering core accounting, reporting, work order management, marketing and leasing tools, online applications, unlimited eSignatures, owner/prospect portals, tenant app, unlimited custom fields, and live support.
+    features:
+      - Complete Accounting System
+      - Standard and Custom Reporting Suite
+      - Work Order Management
+      - Comprehensive Marketing and Leasing Tools
+      - Online Applications and Unlimited eSignatures
+      - Owner, Prospect Portals, and Tenant App
+      - Unlimited Custom Fields
+      - Live Support
+  - name: Plus
+    description: Adds vendor management, no-cost vendor pay, custom workflows, survey analytics hub, and AI-powered call summaries to the Basic feature set.
+    features:
+      - All Basic features
+      - Vendor Management and No Cost Vendor Pay
+      - Custom Workflows
+      - Survey Analytics Hub
+      - AI-Powered Call Summaries
+  - name: Premium
+    description: Adds text and phone broadcast, rmAppSuite Pro mobile app, service tech mapping, enhanced implementation, data importing, and AI-powered writing assistant to the Plus feature set.
+    features:
+      - All Plus features
+      - Text and Phone Broadcast
+      - rmAppSuite Pro Mobile App
+      - Service Tech Mapping
+      - Enhanced Implementation and Data Importing
+      - AI-Powered Writing Assistant
+  - name: Complete
+    description: Full-featured tier adding AI-powered AR/AP Suite, AI-powered report analysis, video inspections, maintenance scheduling, and a dedicated customer success team.
+    features:
+      - All Premium features
+      - AI-Powered AR/AP Suite
+      - AI-Powered Report Analysis
+      - Video Inspections
+      - Maintenance Scheduling
+      - Dedicated Customer Success Team
+  - name: API Add-On
+    description: The Rent Manager API is available as an add-on for any bundle. Provides both read and write access to the Rent Manager Online (RMO) database via a RESTful web API (WAPI12). Pricing is quote-based.
+    features:
+      - Read and write access to RMO database
+      - RESTful WAPI12 endpoints
+      - Partner token authentication
+      - Integration with 200+ PropTech partners
+      - Open Access read-only database views
+notes:
+  - No public pricing amounts are disclosed; all plans require a demo or sales contact.
+  - API access is an add-on and not included by default in any bundle.
+  - Contact sales at 513-583-1482 or via https://www.rentmanager.com/free-demo/

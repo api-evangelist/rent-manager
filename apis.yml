@@ -1,0 +1,69 @@
+aid: rent-manager
+name: Rent Manager
+description: Rent Manager is property management software with a REST API (WAPI12) for managing properties, tenants, leases, work orders, accounting, billing, and maintenance workflows for residential and commercial portfolios. The API provides both read and write access to the Rent Manager Online (RMO) database, enabling integration with 200+ PropTech partner solutions.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/rent-manager/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Property Management
+  - Real Estate
+  - Tenants
+  - Leases
+  - Work Orders
+  - Accounting
+  - Maintenance
+  - Residential
+  - Commercial
+  - HOA
+  - Multifamily
+apis:
+  - aid: rent-manager:rent-manager-api
+    name: Rent Manager Web API
+    description: The Rent Manager Web API (WAPI12) is a RESTful API that provides both read and write access to the Rent Manager Online (RMO) database. It supports property management operations including tenants, leases, work orders, accounting, billing, and maintenance for residential and commercial portfolios.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.rentmanager.com/software-customization/
+    baseURL: https://{company}.api.rentmanager.com
+    tags:
+      - Property Management
+      - Tenants
+      - Leases
+      - Work Orders
+      - Accounting
+      - Maintenance
+    properties:
+      - type: Documentation
+        url: https://uprop.api.rentmanager.com/help
+      - type: OpenAccess
+        url: https://www.rentmanager.com/software-customization/
+common:
+  - type: Website
+    url: https://www.rentmanager.com
+  - type: Documentation
+    url: https://uprop.api.rentmanager.com/help
+  - type: Blog
+    url: https://www.rentmanager.com/blog/
+  - type: Pricing
+    url: https://www.rentmanager.com/pricing/
+  - type: StatusPage
+    url: https://status.lcs.com/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/rentmanager
+  - type: X
+    url: https://x.com/RentManager
+  - type: Integrations
+    url: https://www.rentmanager.com/integrations/
+  - type: Support
+    url: https://www.rentmanager.com/support/
+  - type: APISupport
+    url: https://www.rentmanager.com/submit-api-support-request/
+  - type: Plans
+    url: plans/rent-manager-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/rent-manager-rate-limits.yml
+  - type: FinOps
+    url: finops/rent-manager-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

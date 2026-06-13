@@ -1,0 +1,25 @@
+name: Rent Manager FinOps
+description: Financial operations considerations for teams integrating with the Rent Manager API. All Rent Manager pricing is quote-based with no public list prices.
+url: https://www.rentmanager.com/pricing/
+model: quote-based
+billing_notes:
+  - Rent Manager uses a bundle-based pricing model (Basic, Plus, Premium, Complete).
+  - The API is an add-on cost on top of the chosen software bundle.
+  - No per-call or usage-based API fees are publicly documented.
+  - Integration partners may have their own fees in addition to Rent Manager licensing.
+  - Vendor Pay and payment processing features may carry separate transaction fees (e.g., via Zego integration).
+cost_drivers:
+  - Software bundle tier selected
+  - API add-on licensing
+  - Number of properties/units managed
+  - Third-party integration partner fees
+  - Transaction fees for online payments and vendor pay
+  - Implementation and data import services (higher tiers)
+optimization:
+  - Negotiate bundle and API add-on pricing together for volume discounts.
+  - Use Open Access (read-only) for reporting use cases that do not require write access, which may carry lower licensing cost.
+  - Evaluate which integration partners are built-in vs. additional cost before selecting a bundle.
+contact:
+  sales_phone: "513-583-1482"
+  demo_url: https://www.rentmanager.com/free-demo/
+  support_url: https://www.rentmanager.com/submit-api-support-request/

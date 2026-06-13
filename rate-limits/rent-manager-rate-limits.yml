@@ -1,0 +1,11 @@
+name: Rent Manager API Rate Limits
+description: Rent Manager does not publicly disclose specific rate limit thresholds for its WAPI12 REST API. Rate limits are managed at the partner and account level. Customers experiencing throttling should contact API support.
+url: https://www.rentmanager.com/software-customization/
+notes:
+  - No specific public rate limit numbers (requests per minute/hour/day) are documented.
+  - Rate limits are enforced per partner token and customer account.
+  - The API is designed for enterprise property management workflows; throughput is tuned accordingly.
+  - For rate limit details contact: https://www.rentmanager.com/submit-api-support-request/
+  - API support email: Support@RentManager.com
+  - API support phone: 800-669-0871 (Option 4)
+limits: []
