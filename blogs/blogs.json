@@ -3,12 +3,19 @@
   "feeds": [
     {
       "source": "https://www.rentmanager.com/blog/",
-      "feed_url": "https://www.rentmanager.com/blog/",
-      "title": "Rent Manager Blog",
+      "feed_url": "https://www.rentmanager.com/feed/",
+      "title": "",
+      "saved": 1,
+      "method": "discovered"
+    },
+    {
+      "source": "https://uprop.api.rentmanager.com/help",
+      "feed_url": "https://uprop.api.rentmanager.com/help",
+      "title": "",
       "saved": 0,
-      "method": "html"
+      "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-13T00:00:00Z"
+  "post_count": 1,
+  "fetched": "2026-06-14T20:42:17Z"
 }
