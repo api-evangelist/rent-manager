@@ -38,6 +38,8 @@ apis:
       - type: OpenAccess
         url: https://www.rentmanager.com/software-customization/
 common:
+  - type: DomainSecurity
+    url: security/rent-manager-domain-security.yml
   - type: Website
     url: https://www.rentmanager.com
   - type: Documentation
