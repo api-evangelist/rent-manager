@@ -1,6 +1,17 @@
 aid: rent-manager
 name: Rent Manager
 description: Rent Manager is property management software with a REST API (WAPI12) for managing properties, tenants, leases, work orders, accounting, billing, and maintenance workflows for residential and commercial portfolios. The API provides both read and write access to the Rent Manager Online (RMO) database, enabling integration with 200+ PropTech partner solutions.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
