@@ -31,7 +31,7 @@ modified: '2026-06-13'
 specificationVersion: '0.23'
 tags:
   - Property Management
-  - Real-Estate
+  - Real Estate
   - Tenants
   - Leases
   - Work Orders
@@ -53,6 +53,7 @@ tags_raw:
   - Commercial
   - HOA
   - Multifamily
+  - Real-Estate
 apis:
   - aid: rent-manager:rent-manager-api
     name: Rent Manager Web API
