@@ -55,3 +55,39 @@ notes:
   - No public pricing amounts are disclosed; all plans require a demo or sales contact.
   - API access is an add-on and not included by default in any bundle.
   - Contact sales at 513-583-1482 or via https://www.rentmanager.com/free-demo/
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Basic
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Plus
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Premium
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Complete
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: API Add-On
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
