@@ -64,15 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Rent Manager is property management software with a REST API (WAPI12) for managing properties, tenants, leases, work orders, accounting, billing, and maintenance workflows for residential and commercial portfolios.
+Rent Manager is property management software with a REST API (WAPI12) for managing properties, tenants, leases, work orders, accounting, billing, and maintenance workflows for residential and commercial portfolios. The API provides both read and write access to the Rent Manager Online (RMO) database, enabling integration with 200+ PropTech partner solutions.
 
-The API provides both read and write access to the Rent Manager Online (RMO) database, enabling integration with 200+ PropTech partner solutions across categories including leasing, payments, screening, maintenance, insurance, and utility management.
+**Areas:** Property Management · Real Estate · Tenants · Leases · Work Orders · Accounting · Maintenance · Residential · Commercial · HOA · Multifamily
 
-- **Website:** https://www.rentmanager.com
-- **API Documentation:** https://uprop.api.rentmanager.com/help
-- **Integrations:** https://www.rentmanager.com/integrations/
-- **Pricing:** https://www.rentmanager.com/pricing/
-- **Status:** https://status.lcs.com/
-- **Blog:** https://www.rentmanager.com/blog/
-- **LinkedIn:** https://www.linkedin.com/company/rentmanager
-- **X:** https://x.com/RentManager
+## Rent Manager on APIs.io
+
+Everything profiled for Rent Manager is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rent-manager/](https://apis.io/providers/rent-manager/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Rent Manager Web API](https://apis.io/apis/rent-manager/rent-manager-api/) — The Rent Manager Web API (WAPI12) is a RESTful API that provides both read and write access to the Rent Manager Online (RMO) database. It supports property…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [rent-manager](https://apis.io/servers/rent-manager/rent-manager/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Rent Manager Context](https://apis.io/jsonld/rent-manager/rent-manager-context/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rent Manager Domain Security](https://apis.io/security/rent-manager/rent-manager-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Rent Manager Plans Pricing](https://apis.io/plans/rent-manager/rent-manager-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rent Manager Rate Limits](https://apis.io/rate-limits/rent-manager/rent-manager-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Rent Manager Finops](https://apis.io/finops/rent-manager/rent-manager-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.rentmanager.com)
+- [Documentation](https://uprop.api.rentmanager.com/help)
+- [Pricing](https://www.rentmanager.com/pricing/)
+- [Support](https://www.rentmanager.com/support/)
+- [Blog](https://www.rentmanager.com/blog/)
+- [Status](https://status.lcs.com/)
+
+## API Evangelist rating
+
+**Kin Score 16.9** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 68.3 |
+| Contract quality | 6.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 18.4 |
+
+**Agent readiness 12.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rent-manager/](https://apis.io/providers/rent-manager/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rent Manager: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rent-manager/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
